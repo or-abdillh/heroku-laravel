@@ -59,11 +59,13 @@ Tunggu beberapa saat hingga aplikasi berhasil di deploy dan secara otomatis apli
 #### Tahap 2 : Persiapan Koneksi Database
 Sebelum lanjut pada tahap ini pastikan project di lokal komputer telah berjalan dengan baik dan memiliki file migration dan seeder untuk melakukan dumping data pada database
 ##### 2.1 Install Heroku Postgres
+<img src="./assets/addons.png" width="100%" />
 Pada tahap ini silahkan _klik icon persegi pada pojok kanan atas > elements > Heroku Postgress > Install Heroku Postgress > Fill Your App Name > Submit Order Form__
 ##### 2.2 Melihat Postgress Credentials
 Setelah langkah 2.1 selesai maka selanjutnya _klik Heroku Postgress pada bagian bawah hingga terbuka tab baru > settings > view credentials__
 Pada tahap ini akan diperlihatkan informasi mengenai konfigurasi koneksi database yang telah tersedia, mulai dari Hostname, Username, hingga password.
 ##### 2.4 Setup Environment Variable
+<img src="./assets/environment.png" width="100%" />
 Pada tahap ini melakukan konfigurasi pada environment variable pada server aplikasi. 
 Kembali pada tab browser sebelum langkah 2.3 lalu pergi ke _settings > reveal config vars_
 Pada halaman ini pada bagian bawah akan ditampilkan dua input text yaitu KEY dan VALUE yang harus diisi satu - satu.
