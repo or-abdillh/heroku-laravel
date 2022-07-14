@@ -131,6 +131,13 @@ $ php artisan db:seed
 ```
 Jika file migration dan seeder tidak bermasalah maka dumping data pada database telah selesai dilakukan, namun jika terdapat error pada proses silahkan **cek kembali file miigration dan seeder pada project lokal** di komputer.
 
+#### 5.1 Alternatif perintah
+```bash
+$ heroku run php artisan migrate
+$ heroku run php artisan db:seed
+```
+Jika muncul konfirmasi silahkan **tap Y enter**
+
 #### 6. Melakukan perubahan pada aplikasi
 Heroku menggunakan layanan cloud dalam menyimpan project aplikasi, jadi pastikan antara project di local komputer dengan server heroku benar - benar saling sinkrron
 
@@ -148,6 +155,7 @@ Lalu lakukan perintah yang sama pada instruksi **5** namun ada sedikit perubahan
 ```bash
 $ php artisan migrate:fresh
 $ php artisan db:seed
+
 ```
 
 ### 7. Troubleshooting
