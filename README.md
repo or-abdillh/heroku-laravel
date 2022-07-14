@@ -160,6 +160,11 @@ Berikut ini adalah beberapa solusi yang bisa digunakan jika terdapat masalah pad
 $ composer update
 ```
 Kemudian lakukan perintah pada instruksi **6**
+- [x] Rejected master -> master (fetch first) : Gunakan perintah pada terminal 
+```bash
+$ rm -rf .git
+```
+lalu ulangi langkah **3.4** hingga selesai
 - [x] CSS pada website tidak tampil : Coba ganti https pada url menjadi http
 - [x] Terdapat masalah Forbidden pada website : Pastikan instruksi **3.3** telah benar dilakukan dan pastikan file Procfile berada pada root folder lalu jalankan perintah pada instruksi **6**
 - [x] Terdapat masalah 500 Server Error : Silahkan copy isi dari **APP_KEY** pada file .env di local project lalu masuk ke instruksi **4.3** dan tambahkan VALUE baru **APP_KEY** dengan VALUE dari hasil copy .env lalu jalankan perintah pada instruksi **6** 
