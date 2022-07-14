@@ -156,7 +156,7 @@ Berikut ini adalah beberapa solusi yang bisa digunakan jika terdapat masalah pad
 - [x] Gagal melakukan perintah **_git commit -m "Push"_** : Pastikan telah melakukan instruksi **1.2** dengan benar
 - [x] Command NPM dan Heroku error : Pastikan komputer telah terinstall NodeJS dan lakukan perintah pada instruksi **1.1** dan **1.3**
 - [x] Rejected saat melakukan **_git push heroku master_** : Coba hapus file **composer.lock** dan folder **vendor** pada local project lalu jalankan perintah 
-``bash
+```bash
 $ composer update
 ```
 Kemudian lakukan perintah pada instruksi **6**
